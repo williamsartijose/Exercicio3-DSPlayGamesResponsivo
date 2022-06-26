@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root{
+--color-green: #38AF90;
+--color-white: #FFFFFF;
+--color-gray: #797979;
+--color-light-gray: #F0F0F0;
+--color-light-red: #DD7E92;
+--color-dark-grey: #383838;
+}
+
+*{
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    padding: 0;
+    margin: 0 auto;   
+}
+
+header{
+    background-color: var(--color-green);
+    height: 90px;
+    width: 100%px;
+    border-style: 15px solid rgba( 0, 0, 0, 0.65);
+    border-bottom-style: outset;
+}
+
+
+.container{
+    display: flex;
+    width: 100%;
+    max-width: 320px;
+}    
+
+.container1{
+    justify-content: space-around;
+}    
+
+.nav-h1{
+    margin: 32px 0 32px 10px;
+    align-items: center;
+    color: var(--color-white);
+}
+
+h1{
+    font-size: 18px;
+}
+
+.profile img{
+    width: 62px;
+    height: 62px;
+}
+.profile{
+    margin: 14px 10px;
+}
+.itens-link{
+    margin: 0 2px;
+    float: left;
+    margin: 34px 14px;
+}
+
+.itens ul{
+    list-style-type: none;
+}
+
+.itens a{
+    color: var(--color-white);
+}
+
+.itens{
+    margin-right: 29px;
+}
+
+#lastNews{
+    background-color: var(--color-white);
+}
+
+.news{
+    margin: 40px 0;
+}
+
+.news h2{
+    font-size: 24px;
+    color: var(--color-gray);
+    text-align: center;
+    font-weight: bold;
+}
+
+.informations{
+    background-color: var(--color-light-gray);
+    border-radius: 8px;
+    margin: 40px 0;
+    border-bottom: 2px groove;
+}
+
+.informations a{
+    font-size: 14px;
+}
+
+.informations h3{
+    color: var(--color-green);
+    font-weight: bold;
+    font-size: 16px;
+    padding: 16px 0 0 40px;
+}
+
+.informations-sub{
+    border-bottom: 3px solid var(--color-green);
+    margin: 0 40px;
+}
+
+.informations-sub h4{
+    color: var(--color-gray);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.informations-date{
+    color: var(--color-green);
+    padding-left: 40px;
+    padding-top: 5px;
+    font-size: 10px;
+}
+
+.informations-description{
+    color: var(--color-gray);
+    font-size: 10px;
+    padding: 16px 40px 7px 40px;
+}
+
+.informations-more{
+  padding: 0 0 15px 40px;
+}
+
+.informations-more a{
+    color: var(--color-light-red);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#more{
+    background-color: var(--color-light-red);
+    width: 244px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#more a{
+    color: var(--color-white);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#typesGames{
+    background-color: var(--color-light-gray);
+    width: 320px;
+    height: 1176;
+    padding-bottom: 40px;
+
+}
+
+.card{
+    flex-direction: column;
+    align-items: center;
+}
+
+.games{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.games h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--color-green);
+}
+
+.cardGame{
+    border-radius: 8px;
+    background-color: var(--color-white);
+    width: 300px;
+    height: 326px;
+    margin: 28px 0 0 0;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.cardGame img{
+width: 300px;
+height: 169px;
+border-radius: 8px 8px 0 0;
+}
+
+.cardGame h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--color-gray);
+    line-height: 27px;
+}
+
+.cardGame p{
+    font-size: 12px;
+    color: var(--color-green);
+    line-height: 18px;
+}
+
+.cardGame strong{
+    font-size: 14px;
+    line-height: 21px;
+    font-style: bold;
+}
+
+.cardGame h5{
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: bold;
+    color: var(--color-green);
+}
+
+#incription{
+    display: flex;
+}
+
+.inscriptionTitle{
+    background-color: var(--color-white);
+}
+
+.inscriptionTitle h2{
+    font-size: 24px;
+    color: var(--color-gray);
+    font-weight: bold;
+    margin: 39px 0;
+    text-align: center;
+}
+
+.cardForm{
+    background-color: var(--color-light-gray);
+    border-radius: 8px;
+    width: 300px;
+    height: 603px;
+    border-bottom: 2px groove;
+    margin-bottom: 60px;
+}
+
+.cardName{
+   box-sizing: border-box;
+   width: 280px;
+   height: 50px;
+   border: 1px solid var(--color-gray);
+   border-radius: 4px; 
+   margin: 52px 12px 12px 8px;
+}
+
+.cardEmail{
+    box-sizing: border-box;
+    width: 280px;
+    height: 50px;
+    border: 1px solid var(--color-gray);
+    border-radius: 4px; 
+    margin: 8px 12px 20px 8px;
+ }
+
+
+ .formSelect{
+    color: var(--color-gray);
+    font-size: 16px;
+    align-items: center;
+    margin-left: 8px;
+ }
+
+ .select{
+    color: var(--color-gray);
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 10px;
+ }
+
+ .fornNews{
+    font-size: 16px;
+    margin: 35px 48px 47px 8px;
+    color: var(--color-gray);
+ }
+
+ .submitReset{
+    justify-content: center;
+ }
+ 
+ #botSubmit{
+    width: 244px;
+    height: 67px;
+    border-radius: 8px;
+    margin: 0 30px 33px 26px;
+    font-size: 18px;
+    font-weight: bold;
+    border-style: solid;
+    border-color: var(--color-light-red);
+    background-color: var(--color-light-red);
+    color: var(--color-white);
+   
+ }
+
+ #botReset{
+    width: 244px;
+    height: 67px;
+    border-radius: 8px;
+    margin: 10px 30px 10px 26px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: var(--color-white);
+    color: var(--color-light-red);
+    border-style: solid ;
+    border-color: var(--color-light-red);
+ }
+
+footer{
+    background-color: var(--color-dark-grey);
+    width: 320px;   
+    height: 302px;
+}
+
+.footerContainer{
+    flex-direction: column;
+}
+
+.socialMedia{
+    margin-top: 28px;
+    text-align: center;
+}
+
+.linkHelp a{
+    color: var(--color-white);
+    font-size: 14px;
+    
+}
+
+.reserved{
+    margin: 42px 37px 12px 34px;
+    align-items: center;
+    text-align: center;
+}
+
+.reserved p{
+    color: var(--color-white);
+    font-size: 14px;
+}
+
+.terms{
+    margin: 37px 38px 30px 48px;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .itens{
+        display: none;
+    }
+
+}   
+
+@media(min-width: 1200px) {
+
+    .container{
+        max-width: 990px;
+    }    
+
+    .nav-h1{
+      margin: 27px 0;
+    }
+
+    h1{
+    font-size: 24px;
+    }
+
+    .profile{
+        margin: 14px 0;
+    }
+
+    .news h2{
+    font-size: 36px;
+    }
+
+    .informations h3{
+        font-size: 24px;
+    }
+
+    .informations-sub h4{
+        font-size: 16px;
+    }
+
+    #typesGames{
+        width: 100%;
+        height: 559px;
+    }
+
+    .card{
+        flex-direction: row;
+    }    
+
+    .games{
+    padding: 32px 0;
+    }
+
+    .games h2{
+        font-size: 36px;
+    }
+    
+    .cardGame{
+        margin: 62px 15px 70px 0;
+    }
+
+    .inscriptionTitle h2{
+        font-size: 36px;
+    }
+
+    .cardForm{
+        width: 790px;
+        height: 522px;
+    }
+    
+    .cardName{
+        width: 642px;
+        margin: 52px 74px 10px 74px;
+    } 
+    
+    .cardEmail{
+        width: 642px;
+        margin: 10px 74px 10px 74px;
+     }
+
+     .formSelect{
+        margin-left: 72px;
+     }
+    
+     .select{
+        margin-left: 72px;
+     }
+    
+     .fornNews{
+        margin: 30px 0 38px 72px;
+     }
+
+     #botSubmit{
+        margin-left: 125px;
+        margin-right: 22px ; 
+     }
+    
+     #botReset{
+        margin-left: 22px;
+        margin-right: 125px;
+    }
+    
+    footer{
+        width: 100%;
+        height: 190px;
+        margin: 0;
+    }
+    
+    .footerContainer{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .socialMedia{
+        margin-top: 74px;
+        margin-left: 0;
+        margin-right: 70px;
+    }
+    
+    .reserved{
+        margin: 84px 20px;
+    }
+    
+    .terms{
+        margin-top: 74px;
+        margin-right: 0;
+    }
+    
+}
+
+
